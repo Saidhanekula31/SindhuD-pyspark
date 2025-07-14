@@ -5,17 +5,17 @@ This project demonstrates how to use PySpark to clean, transform, and analyze Ne
 Project Structure
 
 netflix-data-transform/
-├── netflix_titles.csv # Original raw dataset
-├── transform_netflix_pyspark.py # PySpark transformation script
-├── netflix_cleaned_output/ # Output folder with cleaned Netflix data
-├── movies_per_year_output/ # Output folder with yearly movie counts
-├── sample_output/ # Sample output CSVs for quick preview
-│ ├── netflix_cleaned_sample.csv
-│ └── movies_per_year_sample.csv
-└── README.md # Project documentation (this file)
+ netflix_titles.csv # Original raw dataset
+ transform_netflix_pyspark.py # PySpark transformation script
+ netflix_cleaned_output/ # Output folder with cleaned Netflix data
+ movies_per_year_output/ # Output folder with yearly movie counts
+ sample_output/ # Sample output CSVs for quick preview
+ netflix_cleaned_sample.csv
+ movies_per_year_sample.csv
+ README.md # Project documentation (this file)
 
 
-## 🚀 Transformations Performed
+ Transformations Performed
 
 The following steps are performed using PySpark:
 
@@ -27,7 +27,7 @@ The following steps are performed using PySpark:
 6. Group by `year_added` to count movies released each year.
 7. Write both cleaned data and aggregated data as CSV files.
 
-## 🛠️ Requirements
+ Requirements
 
 Make sure you have the following installed:
 
