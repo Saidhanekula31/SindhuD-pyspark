@@ -29,17 +29,7 @@ pip install pyspark
  How to Run
 Open terminal or VS Code integrated terminal.
 
- Sample Output Preview
-Cleaned Netflix Data (Partial)
-show_id	type	title	date_added	year_added
-s1	Movie	Jaws	2019-01-01	2019
-s2	Movie	The Irishman	2019-11-27	2019
 
-Movies Per Year (Aggregated)
-year_added	movie_count
-2016	300
-2017	420
-2018	512
 
 Output Files
 
